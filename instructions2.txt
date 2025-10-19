@@ -1,0 +1,170 @@
+🧭 1. Core Principles (System Foundation)
+
+These are non-negotiable rules that guide all reasoning, design, and generation.
+
+Use only the “coss” registry.
+All UI components must be imported exclusively from the coss registry defined in components.json.
+
+No imports from the original SHADCN library.
+
+No imports from any other registries or external sources.
+
+Every component must be validated as part of the coss registry scope.
+
+Registry-purity enforcement.
+If a component does not exist in the coss registry, it must not be used or generated.
+The system must adapt design and structure using only coss-available primitives and components.
+
+Conversion-driven design.
+The visual hierarchy and copy must be optimized to guide users toward a measurable goal (signups, sales, inquiries, etc.).
+
+Brand and visual consistency.
+Follow the color palette, typography, and branding defined in the prompt or style configuration.
+
+SEO and copy alignment.
+Every page must use persuasive, well-structured copy that supports both user intent and search optimization.
+
+Strategic planning first.
+Always map the structure, goals, and flow before writing any markup or code.
+
+🧩 2. Website Ideation and Planning Phase
+
+Before generating any code, the system must plan strategically:
+
+Business Goals
+
+Identify the client’s primary objectives (e.g., lead capture, sales conversion, booking requests).
+
+Define measurable KPIs that the design should influence.
+
+Audience Definition
+
+Analyze who the website targets and what pain points or motivations they have.
+
+Tailor messaging, visuals, and layout to their mindset.
+
+Conversion Funnel Mapping
+
+Define each stage: awareness → engagement → conversion.
+
+Assign each page section a role within this flow.
+
+Information Architecture
+
+Plan core pages (Home, About, Services, Testimonials, Contact).
+
+Maintain logical navigation and a clear, frictionless user path.
+
+🎨 3. Visual and UX Design Workflow
+
+When designing and implementing layouts:
+
+Grid and Spacing System
+
+Use a consistent Tailwind-based grid and spacing approach compatible with SHADCN and COSS standards.
+
+Preserve balance, whitespace, and visual hierarchy.
+
+Component Selection
+
+Only use components from the “coss” registry.
+
+Do not import or generate components from the base SHADCN library or any external source.
+
+Compose complex layouts by combining existing coss components creatively.
+
+Reuse and extend within the limits of coss to maintain consistency and scalability.
+
+Brand & Color Fidelity
+
+Apply the brand color palette, typography, and iconography exactly as defined.
+
+Ensure accessibility and visual clarity (contrast ratios, font sizes, focus states).
+
+Mobile Responsiveness
+
+Design mobile-first.
+
+Use Tailwind responsive utilities (sm:, md:, lg:, xl:) for adaptive layouts.
+
+Ensure navigation collapses effectively, touch targets are large enough, and spacing adjusts cleanly.
+
+Test all breakpoints for readability and usability.
+
+Interaction Patterns
+
+Use Framer Motion (or supported motion APIs within coss) for smooth transitions and micro-animations.
+
+Maintain consistent state changes (hover, focus, active).
+
+🧠 4. Copy and SEO Strategy
+
+Textual and structural generation should follow this process:
+
+Headline & Hook
+
+Lead with emotional, benefit-driven statements that attract instant attention.
+
+Value Proposition
+
+Communicate clearly why the brand matters and what it delivers uniquely.
+
+Proof & Trust
+
+Include testimonials, metrics, or brand logos that reinforce credibility.
+
+CTA Optimization
+
+Place clear, emotionally charged CTAs throughout the funnel.
+
+Use active verbs and high-contrast design for emphasis.
+
+SEO Optimization
+
+Integrate relevant keywords naturally in H1, H2, metadata, and alt attributes.
+
+Follow semantic HTML hierarchy for accessibility and SEO clarity.
+
+Keep copy concise, scannable, and human-centric.
+
+🧱 5. Development and Implementation Workflow
+
+Project Setup
+
+Use a framework such as Next.js integrated with SHADCN tooling and the coss registry.
+
+Confirm registry mapping in components.json.
+
+Component Assembly
+
+Construct pages exclusively from coss components.
+
+Recompose and extend coss primitives where necessary for layout variation.
+
+Responsiveness and Accessibility
+
+Verify performance, ARIA labeling, and keyboard navigation.
+
+Test across devices and screen sizes.
+
+Visual Consistency Validation
+
+Ensure all imported elements are from the coss registry.
+
+Confirm color and font consistency with brand guidelines.
+
+🚀 6. Review & Optimization
+
+Validate conversion logic and user journey coherence.
+
+Confirm SEO compliance (titles, meta tags, internal linking).
+
+Audit mobile and accessibility performance (contrast, navigation, touch area sizes).
+
+Ensure import purity:
+
+✅ Imports only from coss registry
+
+❌ No base SHADCN imports
+
+❌ No other registries or third-party UI libraries.

@@ -1,0 +1,108 @@
+🧭 1. Core Principles (System Foundation)
+
+These are non-negotiable rules that guide all reasoning and generation.
+
+Use only registry-approved components.
+All UI elements must be imported exclusively from the custom registries defined in components.json.
+No imports are allowed directly from the original SHADCN library or any external packages.
+
+Component integrity enforcement.
+Every component reference must resolve to a valid path inside one of the allowed registries. If a component isn’t in a registry, it cannot be used or generated.
+
+Brand and color adherence.
+Follow the brand identity, color system, and typography defined in the prompt or configuration.
+
+Conversion-driven design.
+Aesthetics must serve usability, persuasion, and lead generation. Each section should guide the user toward a clear conversion action.
+
+SEO and copy synergy.
+Copywriting must integrate both marketing psychology and on-page SEO principles seamlessly.
+
+Plan before generating.
+Never jump directly to markup or component code. Begin with strategic reasoning: structure, flow, and intent.
+
+🧩 2. Website Ideation and Planning Phase
+
+Before generating any layout or code, the model should strategically think through:
+
+Business Goals
+
+Define the client’s conversion objectives (e.g., lead generation, signups, sales).
+
+Identify key metrics for success.
+
+Audience Definition
+
+Understand the target users — their motivations, objections, and expectations.
+
+Align tone, visual hierarchy, and layout with their psychology.
+
+Conversion Funnel Design
+
+Map the visitor journey: awareness → engagement → conversion.
+
+Assign each page section a role in supporting this flow.
+
+Information Architecture
+
+Define all necessary pages and sections (e.g. Home, About, Services, Testimonials, Contact).
+
+Ensure the navigation feels intuitive and frictionless.
+
+🎨 3. Visual and UX Design Workflow
+
+When planning layout and design:
+
+Grid and Spacing System
+
+Follow a consistent grid and spacing system based on Tailwind or SHADCN design conventions.
+
+Maintain generous whitespace and clear visual hierarchy.
+
+Component Selection
+
+Select only from approved SHADCN registry components — never from the original SHADCN library.
+
+Reuse modular patterns and design tokens to maintain consistency.
+
+Avoid introducing external component sources or custom unregistered code.
+
+Brand & Color Fidelity
+
+Use the color palette, typography, and imagery provided by the brand spec.
+
+Ensure accessibility: contrast ratios, font sizing, and responsiveness.
+
+Interaction Patterns
+
+Use smooth transitions and subtle motion (e.g., Framer Motion) where appropriate.
+
+Ensure every state (hover, focus, active) is visually consistent and user-friendly.
+
+🧠 4. Copy and SEO Strategy
+
+All textual generation should follow this structured flow:
+
+Headline & Hook
+
+Craft attention-grabbing statements that emotionally connect with the visitor.
+
+Value Proposition
+
+Clearly communicate the unique benefit and differentiation within seconds.
+
+Proof & Trust Elements
+
+Integrate testimonials, reviews, logos, or certifications to build trust.
+
+CTA Optimization
+
+Use strong, clear verbs.
+
+Place CTAs strategically to reduce friction and maximize engagement.
+
+SEO Optimization
+
+Integrate relevant keywords naturally in headings, meta descriptions, and alt tags.
+
+Maintain concise, scannable copy optimized for both humans and search engines.
